@@ -1,12 +1,12 @@
 FROM alpine:3.12
-LABEL maintainer="john.lin@ringcentral.com"
+LABEL maintainer="xartifex@yahoo.com"
 
 ENV LANG=en_US.UTF-8 \
     LANGUAGE=en_US:en \
     LC_ALL=en_US.UTF-8 \
     JAVA_VERSION=8 \
-    JAVA_UPDATE=202 \
-    JAVA_UPDATE_SMALL_VERSION=08 \
+    JAVA_UPDATE=144 \
+    JAVA_UPDATE_SMALL_VERSION=01 \
     JAVA_BASE_URL=https://download.oracle.com/otn-pub/java \
     JAVA_BASE_MIRRORS_URL=https://repo.huaweicloud.com/java \
     GLIBC_BASE_URL=https://github.com/sgerrand/alpine-pkg-glibc/releases/download \
